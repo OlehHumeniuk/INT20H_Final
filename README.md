@@ -17,8 +17,10 @@
 ## Серверна частина(API)
 1. Для запуску серверної частини вам насамперед потрібно лише встановлений [Visual Studio](https://visualstudio.microsoft.com/ru/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&passive=false&cid=2030).
 
-Також у зв'язку з тим що серверну частину писали на скору руку, то вона працює локально і на http, тому флаттер при запуску клієнтського застосунку може видавати помилку. 
-Щоб це виправити подивіться наступне [відео](https://www.youtube.com/watch?v=H-q-_0oGOzg).
+Відповідно щоб запустити проект локально вам потрібно буде змінити https://192.168.32.254:443 на свій адрес.
+І також
+Data Source=DESKTOP-ENJOGM8;Initial Catalog=INT20DB;Integrated Security=True; TrustServerCertificate=True
+DESKTOP-ENJOGM8, INT20DB- замінити на свої відповідно
 
 ## Клієнтська частина
 1. Для запуску клієнтської частини ви насамперед маєте встановити Flutter. Це можна зробити з [офіційного сайту](https://docs.flutter.dev/get-started/install).
